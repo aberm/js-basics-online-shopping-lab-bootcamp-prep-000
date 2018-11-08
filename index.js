@@ -22,7 +22,7 @@ function viewCart() {
     sgs
   } else if (cart.length === 2) {
     fdg
-  } else if (cart.length === ) {
+  } else if (cart.length > 2) {
     gdf
   }
 }
