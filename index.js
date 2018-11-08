@@ -19,7 +19,7 @@ function viewCart() {
   if (cart.length === 0) {
     return "Your shopping cart is empty.";
   } else if (cart.length === 1) {
-    sgs
+    return ""
   } else if (cart.length === 2) {
     fdg
   } else if (cart.length > 2) {
