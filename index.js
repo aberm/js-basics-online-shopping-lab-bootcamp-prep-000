@@ -31,7 +31,7 @@ function viewCart() {
       if (i === cart.length-1) {
         str = str + `and ${cart[i]['itemName']} at $${cart[i]['itemPrice']}.`
       } else {
-      str = str + `${cart[i]['itemName']} at $${cart[i]['itemPrice']}, and`
+      str = str + `${cart[i]['itemName']} at $${cart[i]['itemPrice']}, `
       }
     }
     return str
