@@ -25,7 +25,11 @@ function viewCart() {
   } else if (cart.length > 2) {
     var str = "In your cart, you have ";
     for (var i = 0; i < cart.length; i++) {
-      str = str + 
+      if (i === cart.length-1) {
+        str = str + `${cart[i]['itemName']} at $${cart[i]['itemPrice']}.`
+      } else {
+      str = str + `${cart[i]['itemName']} at $${cart[i]['itemPrice']}, and`
+      }
     }
     
   }
